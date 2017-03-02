@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import kr.quse.daggerfragment.Model.IModel;
 import kr.quse.daggerfragment.Model.ModelA;
@@ -23,13 +24,16 @@ import kr.quse.daggerfragment.Module.ModelCModule;
 public class MainActivityFragment extends Fragment {
 
     @Inject
-    ModelA mModelA;
+    @Named("ModelA")
+    IModel mModelA;
 
     @Inject
-    ModelB mModelB;
+    @Named("ModelB")
+    IModel mModelB;
 
     @Inject
-    ModelC mModelC;
+    @Named("ModelC")
+    IModel mModelC;
 
     public MainActivityFragment() {
     }

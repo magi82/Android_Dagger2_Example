@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import kr.quse.daggerfragment.Component.ModelBComponent;
 import kr.quse.daggerfragment.Model.IModel;
@@ -23,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
     public ModelBComponent mModelBComponent;
 
     @Inject
-    ModelA mModelA;
+    @Named("ModelA")
+    IModel mModelA;
 
     @Inject
-    ModelB mModelB;
+    @Named("ModelB")
+    IModel mModelB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

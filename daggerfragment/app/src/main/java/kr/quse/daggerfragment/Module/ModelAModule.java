@@ -1,5 +1,6 @@
 package kr.quse.daggerfragment.Module;
 
+import javax.inject.Named;
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -16,7 +17,8 @@ public class ModelAModule {
 
     @Provides
     @Singleton
-    public ModelA provideModelA() {
+    @Named("ModelA")
+    public IModel provideModelA() {
         return new ModelA();
     }
 }

@@ -4,11 +4,11 @@ import android.app.Application;
 import android.util.Log;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import kr.quse.daggerfragment.Component.DaggerModelAComponent;
 import kr.quse.daggerfragment.Component.ModelAComponent;
 import kr.quse.daggerfragment.Model.IModel;
-import kr.quse.daggerfragment.Model.ModelA;
 import kr.quse.daggerfragment.Module.ModelAModule;
 
 /**
@@ -20,7 +20,8 @@ public class MyApp extends Application {
     private ModelAComponent mModelAComponent;
 
     @Inject
-    ModelA mModelA;
+    @Named("ModelA")
+    IModel mModelA;
 
     @Override
     public void onCreate() {

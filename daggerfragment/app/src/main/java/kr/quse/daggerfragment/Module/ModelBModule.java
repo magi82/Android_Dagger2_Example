@@ -1,5 +1,7 @@
 package kr.quse.daggerfragment.Module;
 
+import javax.inject.Named;
+
 import dagger.Module;
 import dagger.Provides;
 import kr.quse.daggerfragment.Model.IModel;
@@ -15,7 +17,8 @@ public class ModelBModule {
 
     @Provides
     @ActivityScope
-    public ModelB provideModelB() {
+    @Named("ModelB")
+    public IModel provideModelB() {
         return new ModelB();
     }
 }
