@@ -1,10 +1,10 @@
-package kr.quse.daggerfragment.Component;
+package kr.quse.daggerfragment.Components;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
-import kr.quse.daggerfragment.Module.ModelAModule;
-import kr.quse.daggerfragment.Module.ModelBModule;
+import kr.quse.daggerfragment.Modules.ModelAModule;
+import kr.quse.daggerfragment.Modules.ModelBModule;
 import kr.quse.daggerfragment.MyApp;
 
 /**

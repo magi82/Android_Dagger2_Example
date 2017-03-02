@@ -13,15 +13,13 @@ import android.view.MenuItem;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import kr.quse.daggerfragment.Component.ModelBComponent;
-import kr.quse.daggerfragment.Model.IModel;
-import kr.quse.daggerfragment.Model.ModelA;
-import kr.quse.daggerfragment.Model.ModelB;
-import kr.quse.daggerfragment.Module.ModelBModule;
+import kr.quse.daggerfragment.Components.ModelBComponent;
+import kr.quse.daggerfragment.Models.IModel;
+import kr.quse.daggerfragment.Modules.ModelBModule;
 
 public class MainActivity extends AppCompatActivity {
 
-    public ModelBComponent mModelBComponent;
+    private ModelBComponent mModelBComponent;
 
     @Inject
     @Named("ModelA")

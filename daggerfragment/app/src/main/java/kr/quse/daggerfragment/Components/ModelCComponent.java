@@ -1,9 +1,9 @@
-package kr.quse.daggerfragment.Component;
+package kr.quse.daggerfragment.Components;
 
 import dagger.Subcomponent;
 import kr.quse.daggerfragment.MainActivityFragment;
-import kr.quse.daggerfragment.Module.ModelCModule;
-import kr.quse.daggerfragment.Scope.FragmentScope;
+import kr.quse.daggerfragment.Modules.ModelCModule;
+import kr.quse.daggerfragment.Scopes.FragmentScope;
 
 /**
  * Created by magi on 2017. 2. 28..

@@ -1,12 +1,12 @@
-package kr.quse.daggerfragment.Module;
+package kr.quse.daggerfragment.Modules;
 
 import javax.inject.Named;
 
 import dagger.Module;
 import dagger.Provides;
-import kr.quse.daggerfragment.Model.IModel;
-import kr.quse.daggerfragment.Model.ModelC;
-import kr.quse.daggerfragment.Scope.FragmentScope;
+import kr.quse.daggerfragment.Models.IModel;
+import kr.quse.daggerfragment.Models.ModelC;
+import kr.quse.daggerfragment.Scopes.FragmentScope;
 
 /**
  * Created by magi on 2017. 2. 28..

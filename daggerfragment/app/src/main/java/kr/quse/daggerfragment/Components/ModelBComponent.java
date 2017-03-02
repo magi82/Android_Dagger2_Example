@@ -1,10 +1,10 @@
-package kr.quse.daggerfragment.Component;
+package kr.quse.daggerfragment.Components;
 
 import dagger.Subcomponent;
 import kr.quse.daggerfragment.MainActivity;
-import kr.quse.daggerfragment.Module.ModelBModule;
-import kr.quse.daggerfragment.Module.ModelCModule;
-import kr.quse.daggerfragment.Scope.ActivityScope;
+import kr.quse.daggerfragment.Modules.ModelBModule;
+import kr.quse.daggerfragment.Modules.ModelCModule;
+import kr.quse.daggerfragment.Scopes.ActivityScope;
 
 /**
  * Created by magi on 2017. 2. 28..

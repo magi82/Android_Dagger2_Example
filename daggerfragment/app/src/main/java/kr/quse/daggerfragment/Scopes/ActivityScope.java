@@ -1,4 +1,4 @@
-package kr.quse.daggerfragment.Scope;
+package kr.quse.daggerfragment.Scopes;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

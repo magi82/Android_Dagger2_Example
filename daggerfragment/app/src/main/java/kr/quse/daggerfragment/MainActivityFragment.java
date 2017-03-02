@@ -11,12 +11,8 @@ import android.view.ViewGroup;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import kr.quse.daggerfragment.Model.IModel;
-import kr.quse.daggerfragment.Model.ModelA;
-import kr.quse.daggerfragment.Model.ModelB;
-import kr.quse.daggerfragment.Model.ModelC;
-import kr.quse.daggerfragment.Module.ModelBModule;
-import kr.quse.daggerfragment.Module.ModelCModule;
+import kr.quse.daggerfragment.Models.IModel;
+import kr.quse.daggerfragment.Modules.ModelCModule;
 
 /**
  * A placeholder fragment containing a simple view.

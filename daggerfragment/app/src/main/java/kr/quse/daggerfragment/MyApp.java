@@ -6,10 +6,10 @@ import android.util.Log;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import kr.quse.daggerfragment.Component.DaggerModelAComponent;
-import kr.quse.daggerfragment.Component.ModelAComponent;
-import kr.quse.daggerfragment.Model.IModel;
-import kr.quse.daggerfragment.Module.ModelAModule;
+import kr.quse.daggerfragment.Components.DaggerModelAComponent;
+import kr.quse.daggerfragment.Components.ModelAComponent;
+import kr.quse.daggerfragment.Models.IModel;
+import kr.quse.daggerfragment.Modules.ModelAModule;
 
 /**
  * Created by magi on 2017. 2. 28..
